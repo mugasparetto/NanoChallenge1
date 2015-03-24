@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C83A11ABC95C20047783A /* small-super-mario.png */; };
 		4A52C3B41ABC8B3500CF4B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52C3B31ABC8B3500CF4B32 /* main.m */; };
 		4A52C3B71ABC8B3500CF4B32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52C3B61ABC8B3500CF4B32 /* AppDelegate.m */; };
 		4A52C3B91ABC8B3500CF4B32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A52C3B81ABC8B3500CF4B32 /* Images.xcassets */; };
 		4A52C3BC1ABC8B3500CF4B32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52C3BA1ABC8B3500CF4B32 /* LaunchScreen.xib */; };
 		4A52C3C81ABC8B3500CF4B32 /* TesteImagemBotoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52C3C71ABC8B3500CF4B32 /* TesteImagemBotoesTests.m */; };
+		4A52C3D41ABC8B4C00CF4B32 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */; };
+		4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */; };
+		4A8E7D361AC087ED007828C5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D351AC087ED007828C5 /* background.png */; };
+		4A8E7D381AC088E6007828C5 /* background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D371AC088E6007828C5 /* background_.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A3C83A11ABC95C20047783A /* small-super-mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-super-mario.png"; sourceTree = "<group>"; };
 		4A52C3AE1ABC8B3500CF4B32 /* TesteImagemBotoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteImagemBotoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A52C3B21ABC8B3500CF4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A52C3B31ABC8B3500CF4B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +41,11 @@
 		4A52C3C11ABC8B3500CF4B32 /* TesteImagemBotoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteImagemBotoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A52C3C61ABC8B3500CF4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A52C3C71ABC8B3500CF4B32 /* TesteImagemBotoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesteImagemBotoesTests.m; sourceTree = "<group>"; };
+		4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		4A8E7D351AC087ED007828C5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4A8E7D371AC088E6007828C5 /* background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +69,15 @@
 		4A52C3A51ABC8B3500CF4B32 = {
 			isa = PBXGroup;
 			children = (
+				4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */,
+				4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */,
+				4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */,
 				4A52C3B01ABC8B3500CF4B32 /* TesteImagemBotoes */,
 				4A52C3C41ABC8B3500CF4B32 /* TesteImagemBotoesTests */,
 				4A52C3AF1ABC8B3500CF4B32 /* Products */,
+				4A3C83A11ABC95C20047783A /* small-super-mario.png */,
+				4A8E7D351AC087ED007828C5 /* background.png */,
+				4A8E7D371AC088E6007828C5 /* background_.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A52C3BC1ABC8B3500CF4B32 /* LaunchScreen.xib in Resources */,
+				4A8E7D381AC088E6007828C5 /* background_.png in Resources */,
+				4A8E7D361AC087ED007828C5 /* background.png in Resources */,
+				4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */,
+				4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */,
 				4A52C3B91ABC8B3500CF4B32 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A52C3D41ABC8B4C00CF4B32 /* ImageViewController.m in Sources */,
 				4A52C3B71ABC8B3500CF4B32 /* AppDelegate.m in Sources */,
 				4A52C3B41ABC8B3500CF4B32 /* main.m in Sources */,
 			);
@@ -394,6 +416,7 @@
 				4A52C3CD1ABC8B3500CF4B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoesTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +425,7 @@
 				4A52C3D01ABC8B3500CF4B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
