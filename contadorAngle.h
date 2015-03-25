@@ -10,10 +10,13 @@
 
 @interface contadorAngle : NSObject
 
+
 + (instancetype) instance;
 - (void) maisVinte;
 - (void) menosVinte;
 
 @property (nonatomic) int valorAngle;
+@property (nonatomic) int valorAngleAtual;
+@property (nonatomic) int quantidadeVoltas;
 
 @end

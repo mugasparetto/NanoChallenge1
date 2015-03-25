@@ -19,6 +19,7 @@
     return auxiliar;
 }
 
+
 - (instancetype) init {
     @throw [NSException exceptionWithName:@"Singleton"
                                    reason:@"Use  + [contadorEsquerda]"

@@ -20,6 +20,8 @@
 @property (nonatomic, weak) IBOutlet UILabel *labelCima;
 @property (nonatomic, weak) IBOutlet UILabel *labelBaixo;
 @property (nonatomic, weak) IBOutlet UILabel *labelAngle;
+@property (nonatomic, weak) IBOutlet UILabel *labelAngleAtual;
+@property (nonatomic, weak) IBOutlet UILabel *labelQuantidadeVoltas;
 
 @property (nonatomic) contadorDireita *objetoContadorDireto;
 @property (nonatomic) contadorEsquerda *objetoContadorEsquerda;
@@ -41,6 +43,8 @@
     self.labelCima.text = [NSString stringWithFormat:@"%d", self.objetoContadorCima.valorCima];
     self.labelBaixo.text = [NSString stringWithFormat:@"%d", self.objetoContadorBaixo.valorBaixo];
     self.labelAngle.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.valorAngle];
+    self.labelAngleAtual.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.valorAngleAtual];
+    self.labelQuantidadeVoltas.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.quantidadeVoltas];
 }
 
 - (void)viewDidLoad {
@@ -73,6 +77,9 @@
     
     self.objetoContadorBaixo.valorBaixo = 0;
     self.labelBaixo.text = [NSString stringWithFormat:@"%d", self.objetoContadorBaixo.valorBaixo];
+    
+    self.objetoContadorAngle.quantidadeVoltas = 0;
+    self.labelQuantidadeVoltas.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.quantidadeVoltas];
 
 }
 
