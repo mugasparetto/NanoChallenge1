@@ -91,6 +91,7 @@
 			children = (
 				4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */,
 				4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */,
+				4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */,
 				C499ECC81AC33E5500768632 /* EstatisticaViewController.h */,
 				C499ECC91AC33E5500768632 /* EstatisticaViewController.m */,
 				C499ECCA1AC33E5500768632 /* EstatisticaViewController.xib */,
@@ -104,7 +105,6 @@
 				C499ECD71AC340B600768632 /* contadorBaixo.m */,
 				C499ECD91AC340C700768632 /* contadorAngle.h */,
 				C499ECDA1AC340C700768632 /* contadorAngle.m */,
-				4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */,
 				4A52C3B01ABC8B3500CF4B32 /* TesteImagemBotoes */,
 				4A52C3C41ABC8B3500CF4B32 /* TesteImagemBotoesTests */,
 				4A52C3AF1ABC8B3500CF4B32 /* Products */,
