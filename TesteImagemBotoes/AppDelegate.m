@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ImageViewController.h"
+#import "EstatisticaViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,14 @@
     // Override point for customization after application launch.
     
     ImageViewController *ivc = [[ImageViewController alloc] init];
-    self.window.rootViewController = ivc;
+//    self.window.rootViewController = ivc;
+    
+    EstatisticaViewController *evc = [[EstatisticaViewController alloc] init];
+    
+    UITabBarController *tbc = [[UITabBarController alloc] init];
+    tbc.viewControllers = @[ivc, evc];
+    
+    self.window.rootViewController = tbc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

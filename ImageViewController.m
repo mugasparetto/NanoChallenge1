@@ -25,6 +25,7 @@
     }
     return self;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     //self.mario.backgroundColor = [UIColor redColor];

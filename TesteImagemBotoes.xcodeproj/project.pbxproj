@@ -17,6 +17,13 @@
 		4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */; };
 		4A8E7D361AC087ED007828C5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D351AC087ED007828C5 /* background.png */; };
 		4A8E7D381AC088E6007828C5 /* background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D371AC088E6007828C5 /* background_.png */; };
+		C499ECCB1AC33E5500768632 /* EstatisticaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECC91AC33E5500768632 /* EstatisticaViewController.m */; };
+		C499ECCC1AC33E5500768632 /* EstatisticaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C499ECCA1AC33E5500768632 /* EstatisticaViewController.xib */; };
+		C499ECCF1AC3405000768632 /* contadorDireita.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECCE1AC3405000768632 /* contadorDireita.m */; };
+		C499ECD21AC3406500768632 /* contadorEsquerda.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECD11AC3406500768632 /* contadorEsquerda.m */; };
+		C499ECD51AC3409B00768632 /* contadorCima.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECD41AC3409B00768632 /* contadorCima.m */; };
+		C499ECD81AC340B600768632 /* contadorBaixo.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECD71AC340B600768632 /* contadorBaixo.m */; };
+		C499ECDB1AC340C700768632 /* contadorAngle.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECDA1AC340C700768632 /* contadorAngle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +53,19 @@
 		4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		4A8E7D351AC087ED007828C5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		4A8E7D371AC088E6007828C5 /* background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_.png; sourceTree = "<group>"; };
+		C499ECC81AC33E5500768632 /* EstatisticaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstatisticaViewController.h; sourceTree = "<group>"; };
+		C499ECC91AC33E5500768632 /* EstatisticaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstatisticaViewController.m; sourceTree = "<group>"; };
+		C499ECCA1AC33E5500768632 /* EstatisticaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EstatisticaViewController.xib; sourceTree = "<group>"; };
+		C499ECCD1AC3405000768632 /* contadorDireita.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contadorDireita.h; sourceTree = "<group>"; };
+		C499ECCE1AC3405000768632 /* contadorDireita.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contadorDireita.m; sourceTree = "<group>"; };
+		C499ECD01AC3406500768632 /* contadorEsquerda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contadorEsquerda.h; sourceTree = "<group>"; };
+		C499ECD11AC3406500768632 /* contadorEsquerda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contadorEsquerda.m; sourceTree = "<group>"; };
+		C499ECD31AC3409B00768632 /* contadorCima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contadorCima.h; sourceTree = "<group>"; };
+		C499ECD41AC3409B00768632 /* contadorCima.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contadorCima.m; sourceTree = "<group>"; };
+		C499ECD61AC340B600768632 /* contadorBaixo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contadorBaixo.h; sourceTree = "<group>"; };
+		C499ECD71AC340B600768632 /* contadorBaixo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contadorBaixo.m; sourceTree = "<group>"; };
+		C499ECD91AC340C700768632 /* contadorAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contadorAngle.h; sourceTree = "<group>"; };
+		C499ECDA1AC340C700768632 /* contadorAngle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contadorAngle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,19 @@
 			children = (
 				4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */,
 				4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */,
+				C499ECC81AC33E5500768632 /* EstatisticaViewController.h */,
+				C499ECC91AC33E5500768632 /* EstatisticaViewController.m */,
+				C499ECCA1AC33E5500768632 /* EstatisticaViewController.xib */,
+				C499ECCD1AC3405000768632 /* contadorDireita.h */,
+				C499ECCE1AC3405000768632 /* contadorDireita.m */,
+				C499ECD01AC3406500768632 /* contadorEsquerda.h */,
+				C499ECD11AC3406500768632 /* contadorEsquerda.m */,
+				C499ECD31AC3409B00768632 /* contadorCima.h */,
+				C499ECD41AC3409B00768632 /* contadorCima.m */,
+				C499ECD61AC340B600768632 /* contadorBaixo.h */,
+				C499ECD71AC340B600768632 /* contadorBaixo.m */,
+				C499ECD91AC340C700768632 /* contadorAngle.h */,
+				C499ECDA1AC340C700768632 /* contadorAngle.m */,
 				4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */,
 				4A52C3B01ABC8B3500CF4B32 /* TesteImagemBotoes */,
 				4A52C3C41ABC8B3500CF4B32 /* TesteImagemBotoesTests */,
@@ -214,6 +247,7 @@
 				4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */,
 				4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */,
 				4A52C3B91ABC8B3500CF4B32 /* Images.xcassets in Resources */,
+				C499ECCC1AC33E5500768632 /* EstatisticaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,8 +266,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A52C3D41ABC8B4C00CF4B32 /* ImageViewController.m in Sources */,
+				C499ECD21AC3406500768632 /* contadorEsquerda.m in Sources */,
+				C499ECDB1AC340C700768632 /* contadorAngle.m in Sources */,
+				C499ECD51AC3409B00768632 /* contadorCima.m in Sources */,
 				4A52C3B71ABC8B3500CF4B32 /* AppDelegate.m in Sources */,
 				4A52C3B41ABC8B3500CF4B32 /* main.m in Sources */,
+				C499ECCB1AC33E5500768632 /* EstatisticaViewController.m in Sources */,
+				C499ECCF1AC3405000768632 /* contadorDireita.m in Sources */,
+				C499ECD81AC340B600768632 /* contadorBaixo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
