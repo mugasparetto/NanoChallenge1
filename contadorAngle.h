@@ -11,7 +11,8 @@
 @interface contadorAngle : NSObject
 
 + (instancetype) instance;
-- (void) maisUm;
+- (void) maisVinte;
+- (void) menosVinte;
 
 @property (nonatomic) int valorAngle;
 

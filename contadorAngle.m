@@ -37,9 +37,15 @@
     return self;
 }
 
-- (void) maisUm{
+- (void) maisVinte{
     
-    self.valorAngle ++;
+    self.valorAngle += 20;
+    
+}
+
+- (void) menosVinte{
+    
+    self.valorAngle -= 20;
     
 }
 
