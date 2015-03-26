@@ -12,6 +12,7 @@
 #import "contadorBaixo.h"
 #import "contadorCima.h"
 #import "contadorAngle.h"
+#import "Coordenadas.h"
 
 @interface EstatisticaViewController ()
 
@@ -28,7 +29,7 @@
 @property (nonatomic) contadorBaixo *objetoContadorBaixo;
 @property (nonatomic) contadorCima *objetoContadorCima;
 @property (nonatomic) contadorAngle *objetoContadorAngle;
-
+@property (nonatomic) Coordenadas *vetoresCoordenadas;
 
 @end
 
@@ -55,6 +56,7 @@
     self.objetoContadorCima = [contadorCima instance];
     self.objetoContadorBaixo = [contadorBaixo instance];
     self.objetoContadorAngle = [contadorAngle instance];
+    self.vetoresCoordenadas = [Coordenadas instance];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -83,6 +85,10 @@
     
     self.objetoContadorAngle.valorAngle = 0;
     self.labelAngle.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.valorAngle];
+    
+    self.vetoresCoordenadas.sorteioX = arc4random()%5;
+    self.vetoresCoordenadas.sorteioY = arc4random()%8;
+    self.vetoresCoordenadas.sorteioAng = arc4random()%17;
 
 
 }

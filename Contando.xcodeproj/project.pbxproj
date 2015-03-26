@@ -17,6 +17,8 @@
 		4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */; };
 		4A6C298E1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C298C1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png */; };
 		4A6C298F1AC472B70097F4BD /* BotãoCima@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C298D1AC472B70097F4BD /* BotãoCima@2x.png */; };
+		4A6C29911AC4816F0097F4BD /* small-super-mario-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */; };
+		4A6C29941AC4938D0097F4BD /* Coordenadas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C29931AC4938D0097F4BD /* Coordenadas.m */; };
 		4A8E7D361AC087ED007828C5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D351AC087ED007828C5 /* background.png */; };
 		4A8E7D381AC088E6007828C5 /* background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D371AC088E6007828C5 /* background_.png */; };
 		56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */; };
@@ -52,14 +54,14 @@
 
 /* Begin PBXFileReference section */
 		4A3C83A11ABC95C20047783A /* small-super-mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-super-mario.png"; sourceTree = "<group>"; };
-		4A52C3AE1ABC8B3500CF4B32 /* TesteImagemBotoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteImagemBotoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A52C3AE1ABC8B3500CF4B32 /* Contando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A52C3B21ABC8B3500CF4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A52C3B31ABC8B3500CF4B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A52C3B51ABC8B3500CF4B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A52C3B61ABC8B3500CF4B32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A52C3B81ABC8B3500CF4B32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A52C3BB1ABC8B3500CF4B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4A52C3C11ABC8B3500CF4B32 /* TesteImagemBotoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteImagemBotoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A52C3C11ABC8B3500CF4B32 /* ContandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A52C3C61ABC8B3500CF4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A52C3C71ABC8B3500CF4B32 /* TesteImagemBotoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesteImagemBotoesTests.m; sourceTree = "<group>"; };
 		4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -67,6 +69,9 @@
 		4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		4A6C298C1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima-Highlighted@2x.png"; sourceTree = "<group>"; };
 		4A6C298D1AC472B70097F4BD /* BotãoCima@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima@2x.png"; sourceTree = "<group>"; };
+		4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-super-mario-sombra.png"; sourceTree = "<group>"; };
+		4A6C29921AC4938D0097F4BD /* Coordenadas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordenadas.h; sourceTree = "<group>"; };
+		4A6C29931AC4938D0097F4BD /* Coordenadas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordenadas.m; sourceTree = "<group>"; };
 		4A8E7D351AC087ED007828C5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		4A8E7D371AC088E6007828C5 /* background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_.png; sourceTree = "<group>"; };
 		56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoAntiHorario-Highlighted@2x.png"; sourceTree = "<group>"; };
@@ -119,6 +124,8 @@
 			children = (
 				4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */,
 				4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */,
+				4A6C29921AC4938D0097F4BD /* Coordenadas.h */,
+				4A6C29931AC4938D0097F4BD /* Coordenadas.m */,
 				4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */,
 				C499ECC81AC33E5500768632 /* EstatisticaViewController.h */,
 				C499ECC91AC33E5500768632 /* EstatisticaViewController.m */,
@@ -138,6 +145,7 @@
 				4A52C3AF1ABC8B3500CF4B32 /* Products */,
 				4A3C83A11ABC95C20047783A /* small-super-mario.png */,
 				4A8E7D351AC087ED007828C5 /* background.png */,
+				4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */,
 				4A8E7D371AC088E6007828C5 /* background_.png */,
 				56B60D9B1AC3969C0023F65D /* BotaoEsquerda */,
 				56B60D9A1AC396950023F65D /* BotaoDireita */,
@@ -152,8 +160,8 @@
 		4A52C3AF1ABC8B3500CF4B32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A52C3AE1ABC8B3500CF4B32 /* TesteImagemBotoes.app */,
-				4A52C3C11ABC8B3500CF4B32 /* TesteImagemBotoesTests.xctest */,
+				4A52C3AE1ABC8B3500CF4B32 /* Contando.app */,
+				4A52C3C11ABC8B3500CF4B32 /* ContandoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,9 +270,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A52C3AD1ABC8B3500CF4B32 /* TesteImagemBotoes */ = {
+		4A52C3AD1ABC8B3500CF4B32 /* Contando */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoes" */;
+			buildConfigurationList = 4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "Contando" */;
 			buildPhases = (
 				4A52C3AA1ABC8B3500CF4B32 /* Sources */,
 				4A52C3AB1ABC8B3500CF4B32 /* Frameworks */,
@@ -274,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = TesteImagemBotoes;
+			name = Contando;
 			productName = TesteImagemBotoes;
-			productReference = 4A52C3AE1ABC8B3500CF4B32 /* TesteImagemBotoes.app */;
+			productReference = 4A52C3AE1ABC8B3500CF4B32 /* Contando.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A52C3C01ABC8B3500CF4B32 /* TesteImagemBotoesTests */ = {
+		4A52C3C01ABC8B3500CF4B32 /* ContandoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoesTests" */;
+			buildConfigurationList = 4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "ContandoTests" */;
 			buildPhases = (
 				4A52C3BD1ABC8B3500CF4B32 /* Sources */,
 				4A52C3BE1ABC8B3500CF4B32 /* Frameworks */,
@@ -292,9 +300,9 @@
 			dependencies = (
 				4A52C3C31ABC8B3500CF4B32 /* PBXTargetDependency */,
 			);
-			name = TesteImagemBotoesTests;
+			name = ContandoTests;
 			productName = TesteImagemBotoesTests;
-			productReference = 4A52C3C11ABC8B3500CF4B32 /* TesteImagemBotoesTests.xctest */;
+			productReference = 4A52C3C11ABC8B3500CF4B32 /* ContandoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "TesteImagemBotoes" */;
+			buildConfigurationList = 4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "Contando" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -329,8 +337,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A52C3AD1ABC8B3500CF4B32 /* TesteImagemBotoes */,
-				4A52C3C01ABC8B3500CF4B32 /* TesteImagemBotoesTests */,
+				4A52C3AD1ABC8B3500CF4B32 /* Contando */,
+				4A52C3C01ABC8B3500CF4B32 /* ContandoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -356,6 +364,7 @@
 				56B60DB61AC3974A0023F65D /* BotãoReset@2x.png in Resources */,
 				4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */,
 				56B60DAD1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png in Resources */,
+				4A6C29911AC4816F0097F4BD /* small-super-mario-sombra.png in Resources */,
 				56B60DB21AC3973E0023F65D /* BotãoHorario@2x.png in Resources */,
 				56B60DA51AC397060023F65D /* BotãoBaixo-Highlighted@2x.png in Resources */,
 				56B60DA91AC397130023F65D /* BotãoDireita-Highligthed@2x.png in Resources */,
@@ -381,6 +390,7 @@
 				4A52C3D41ABC8B4C00CF4B32 /* ImageViewController.m in Sources */,
 				C499ECD21AC3406500768632 /* contadorEsquerda.m in Sources */,
 				C499ECDB1AC340C700768632 /* contadorAngle.m in Sources */,
+				4A6C29941AC4938D0097F4BD /* Coordenadas.m in Sources */,
 				C499ECD51AC3409B00768632 /* contadorCima.m in Sources */,
 				4A52C3B71ABC8B3500CF4B32 /* AppDelegate.m in Sources */,
 				4A52C3B41ABC8B3500CF4B32 /* main.m in Sources */,
@@ -403,7 +413,7 @@
 /* Begin PBXTargetDependency section */
 		4A52C3C31ABC8B3500CF4B32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A52C3AD1ABC8B3500CF4B32 /* TesteImagemBotoes */;
+			target = 4A52C3AD1ABC8B3500CF4B32 /* Contando */;
 			targetProxy = 4A52C3C21ABC8B3500CF4B32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,7 +514,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TesteImagemBotoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = TesteImagemBotoes;
+				PRODUCT_NAME = Contando;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -517,7 +527,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TesteImagemBotoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = TesteImagemBotoes;
+				PRODUCT_NAME = Contando;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -536,7 +546,7 @@
 				);
 				INFOPLIST_FILE = TesteImagemBotoesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ContandoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteImagemBotoes.app/TesteImagemBotoes";
 			};
 			name = Debug;
@@ -551,7 +561,7 @@
 				);
 				INFOPLIST_FILE = TesteImagemBotoesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ContandoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteImagemBotoes.app/TesteImagemBotoes";
 			};
 			name = Release;
@@ -559,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "TesteImagemBotoes" */ = {
+		4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "Contando" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A52C3C91ABC8B3500CF4B32 /* Debug */,
@@ -568,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoes" */ = {
+		4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "Contando" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A52C3CC1ABC8B3500CF4B32 /* Debug */,
@@ -577,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoesTests" */ = {
+		4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "ContandoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A52C3CF1ABC8B3500CF4B32 /* Debug */,

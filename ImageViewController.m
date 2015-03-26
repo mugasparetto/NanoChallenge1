@@ -13,11 +13,13 @@
 #import "contadorBaixo.h"
 #import "contadorCima.h"
 #import "contadorAngle.h"
+#import "Coordenadas.h"
 
 @interface ImageViewController ()
 
 @property (nonatomic, weak) IBOutlet UIImageView *mario;
 @property (nonatomic, weak) IBOutlet UIScrollView *scroll;
+@property (nonatomic) UIImageView *sombra;
 @property (nonatomic) CGFloat anglo;
 @property CGSize startSize;
 
@@ -26,6 +28,8 @@
 @property (nonatomic) contadorBaixo *objetoContadorBaixo;
 @property (nonatomic) contadorCima *objetoContadorCima;
 @property (nonatomic) contadorAngle *objetoContadorAngle;
+@property (nonatomic) Coordenadas *vetoresCoordenadas;
+
 
 @end
 
@@ -33,9 +37,11 @@
 
 - (instancetype) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
     if (self){
         self.anglo = 0;
     }
+    
     return self;
 }
 
@@ -48,10 +54,32 @@
     self.objetoContadorCima = [contadorCima instance];
     self.objetoContadorBaixo = [contadorBaixo instance];
     self.objetoContadorAngle = [contadorAngle instance];
+    self.vetoresCoordenadas = [Coordenadas instance];
     self.scroll.contentSize=CGSizeMake(960,568);
     self.scroll.bounces=NO;
+    self.vetoresCoordenadas.sorteioX = arc4random()%5;
+    self.vetoresCoordenadas.sorteioY = arc4random()%8;
+    self.vetoresCoordenadas.sorteioAng = arc4random()%17;
+    self.sombra = [[UIImageView alloc] init];
+    self.sombra.image=[UIImage imageNamed:@"small-super-mario-sombra.png"];
+    [self.view insertSubview:self.sombra belowSubview:self.mario];
     // Do any additional setup after loading the view from its nib.
 }
+
+- (void) viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    NSNumber *auxX, *auxY, *auxAng;
+    auxX = [self.vetoresCoordenadas.posX objectAtIndex:self.vetoresCoordenadas.sorteioX];
+    auxY = [self.vetoresCoordenadas.posY objectAtIndex:self.vetoresCoordenadas.sorteioY];
+    auxAng = [self.vetoresCoordenadas.angle objectAtIndex:self.vetoresCoordenadas.sorteioAng];
+
+    self.sombra.frame = CGRectMake ([auxX integerValue],[auxY integerValue],100,127);
+    self.sombra.transform = CGAffineTransformMakeRotation([auxAng floatValue]);
+    self.sombra.bounds = CGRectMake(0, 0, self.startSize.width, self.startSize.height);
+
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
