@@ -40,6 +40,7 @@
     
     if (self){
         self.anglo = 0;
+        self.tabBarItem.title = @"Jogo";
     }
     
     return self;
@@ -77,6 +78,14 @@
     self.sombra.frame = CGRectMake ([auxX integerValue],[auxY integerValue],100,127);
     self.sombra.transform = CGAffineTransformMakeRotation([auxAng floatValue]);
     self.sombra.bounds = CGRectMake(0, 0, self.startSize.width, self.startSize.height);
+    
+    if (self.vetoresCoordenadas.resetou){
+        self.anglo = 0;
+        self.mario.transform = CGAffineTransformMakeRotation(self.anglo);
+        [self.mario setFrame:CGRectMake(110, 190, self.startSize.width, self.startSize.height)];
+        self.sombra.bounds = CGRectMake(0, 0, self.startSize.width, self.startSize.height);
+        self.vetoresCoordenadas.resetou = NO;
+    }
 
 }
 

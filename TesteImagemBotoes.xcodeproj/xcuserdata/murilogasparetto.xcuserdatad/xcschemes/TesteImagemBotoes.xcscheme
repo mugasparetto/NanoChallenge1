@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A52C3AD1ABC8B3500CF4B32"
-               BuildableName = "Contando com Mario.app"
-               BlueprintName = "Contando"
-               ReferencedContainer = "container:Contando.xcodeproj">
+               BuildableName = "Contando.app"
+               BlueprintName = "TesteImagemBotoes"
+               ReferencedContainer = "container:TesteImagemBotoes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A52C3C01ABC8B3500CF4B32"
-               BuildableName = "Contando com MarioTests.xctest"
-               BlueprintName = "ContandoTests"
-               ReferencedContainer = "container:Contando.xcodeproj">
+               BuildableName = "ContandoTests.xctest"
+               BlueprintName = "TesteImagemBotoesTests"
+               ReferencedContainer = "container:TesteImagemBotoes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4A52C3C01ABC8B3500CF4B32"
-               BuildableName = "Contando com MarioTests.xctest"
-               BlueprintName = "ContandoTests"
-               ReferencedContainer = "container:Contando.xcodeproj">
+               BuildableName = "ContandoTests.xctest"
+               BlueprintName = "TesteImagemBotoesTests"
+               ReferencedContainer = "container:TesteImagemBotoes.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4A52C3AD1ABC8B3500CF4B32"
-            BuildableName = "Contando com Mario.app"
-            BlueprintName = "Contando"
-            ReferencedContainer = "container:Contando.xcodeproj">
+            BuildableName = "Contando.app"
+            BlueprintName = "TesteImagemBotoes"
+            ReferencedContainer = "container:TesteImagemBotoes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4A52C3AD1ABC8B3500CF4B32"
-            BuildableName = "Contando com Mario.app"
-            BlueprintName = "Contando"
-            ReferencedContainer = "container:Contando.xcodeproj">
+            BuildableName = "Contando.app"
+            BlueprintName = "TesteImagemBotoes"
+            ReferencedContainer = "container:TesteImagemBotoes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4A52C3AD1ABC8B3500CF4B32"
-            BuildableName = "Contando com Mario.app"
-            BlueprintName = "Contando"
-            ReferencedContainer = "container:Contando.xcodeproj">
+            BuildableName = "Contando.app"
+            BlueprintName = "TesteImagemBotoes"
+            ReferencedContainer = "container:TesteImagemBotoes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Contando.xcodeproj">
+      location = "self:TesteImagemBotoes.xcodeproj">
    </FileRef>
 </Workspace>

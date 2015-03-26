@@ -15,8 +15,8 @@
 @property (nonatomic) NSMutableArray *posX;
 @property (nonatomic) NSMutableArray *posY;
 @property (nonatomic) NSMutableArray *angle;
-@property (nonatomic) int origemMarioX;
-@property (nonatomic) int origemMarioY;
+
+@property (nonatomic) BOOL resetou;
 
 @property (nonatomic) int sorteioX;
 @property (nonatomic) int sorteioY;

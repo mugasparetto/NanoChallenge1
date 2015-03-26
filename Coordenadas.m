@@ -53,8 +53,7 @@
             [self.angle addObject:point];
         }
         
-        self.origemMarioX = 110;
-        self.origemMarioY = 190;
+        self.resetou = NO;
 
 
     }

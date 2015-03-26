@@ -54,14 +54,14 @@
 
 /* Begin PBXFileReference section */
 		4A3C83A11ABC95C20047783A /* small-super-mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-super-mario.png"; sourceTree = "<group>"; };
-		4A52C3AE1ABC8B3500CF4B32 /* Contando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A52C3AE1ABC8B3500CF4B32 /* TesteImagemBotoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteImagemBotoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A52C3B21ABC8B3500CF4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A52C3B31ABC8B3500CF4B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A52C3B51ABC8B3500CF4B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A52C3B61ABC8B3500CF4B32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A52C3B81ABC8B3500CF4B32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A52C3BB1ABC8B3500CF4B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4A52C3C11ABC8B3500CF4B32 /* ContandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A52C3C11ABC8B3500CF4B32 /* TesteImagemBotoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteImagemBotoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A52C3C61ABC8B3500CF4B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A52C3C71ABC8B3500CF4B32 /* TesteImagemBotoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesteImagemBotoesTests.m; sourceTree = "<group>"; };
 		4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -160,8 +160,8 @@
 		4A52C3AF1ABC8B3500CF4B32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A52C3AE1ABC8B3500CF4B32 /* Contando.app */,
-				4A52C3C11ABC8B3500CF4B32 /* ContandoTests.xctest */,
+				4A52C3AE1ABC8B3500CF4B32 /* TesteImagemBotoes.app */,
+				4A52C3C11ABC8B3500CF4B32 /* TesteImagemBotoesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,9 +270,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A52C3AD1ABC8B3500CF4B32 /* Contando */ = {
+		4A52C3AD1ABC8B3500CF4B32 /* TesteImagemBotoes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "Contando" */;
+			buildConfigurationList = 4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoes" */;
 			buildPhases = (
 				4A52C3AA1ABC8B3500CF4B32 /* Sources */,
 				4A52C3AB1ABC8B3500CF4B32 /* Frameworks */,
@@ -282,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = Contando;
+			name = TesteImagemBotoes;
 			productName = TesteImagemBotoes;
-			productReference = 4A52C3AE1ABC8B3500CF4B32 /* Contando.app */;
+			productReference = 4A52C3AE1ABC8B3500CF4B32 /* TesteImagemBotoes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A52C3C01ABC8B3500CF4B32 /* ContandoTests */ = {
+		4A52C3C01ABC8B3500CF4B32 /* TesteImagemBotoesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "ContandoTests" */;
+			buildConfigurationList = 4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoesTests" */;
 			buildPhases = (
 				4A52C3BD1ABC8B3500CF4B32 /* Sources */,
 				4A52C3BE1ABC8B3500CF4B32 /* Frameworks */,
@@ -300,9 +300,9 @@
 			dependencies = (
 				4A52C3C31ABC8B3500CF4B32 /* PBXTargetDependency */,
 			);
-			name = ContandoTests;
+			name = TesteImagemBotoesTests;
 			productName = TesteImagemBotoesTests;
-			productReference = 4A52C3C11ABC8B3500CF4B32 /* ContandoTests.xctest */;
+			productReference = 4A52C3C11ABC8B3500CF4B32 /* TesteImagemBotoesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "Contando" */;
+			buildConfigurationList = 4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "TesteImagemBotoes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -337,8 +337,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A52C3AD1ABC8B3500CF4B32 /* Contando */,
-				4A52C3C01ABC8B3500CF4B32 /* ContandoTests */,
+				4A52C3AD1ABC8B3500CF4B32 /* TesteImagemBotoes */,
+				4A52C3C01ABC8B3500CF4B32 /* TesteImagemBotoesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -413,7 +413,7 @@
 /* Begin PBXTargetDependency section */
 		4A52C3C31ABC8B3500CF4B32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A52C3AD1ABC8B3500CF4B32 /* Contando */;
+			target = 4A52C3AD1ABC8B3500CF4B32 /* TesteImagemBotoes */;
 			targetProxy = 4A52C3C21ABC8B3500CF4B32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,7 +514,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TesteImagemBotoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Contando;
+				PRODUCT_NAME = TesteImagemBotoes;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -527,7 +527,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TesteImagemBotoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Contando;
+				PRODUCT_NAME = TesteImagemBotoes;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -546,7 +546,7 @@
 				);
 				INFOPLIST_FILE = TesteImagemBotoesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ContandoTests;
+				PRODUCT_NAME = TesteImagemBotoesTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteImagemBotoes.app/TesteImagemBotoes";
 			};
 			name = Debug;
@@ -561,7 +561,7 @@
 				);
 				INFOPLIST_FILE = TesteImagemBotoesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ContandoTests;
+				PRODUCT_NAME = TesteImagemBotoesTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteImagemBotoes.app/TesteImagemBotoes";
 			};
 			name = Release;
@@ -569,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "Contando" */ = {
+		4A52C3A91ABC8B3500CF4B32 /* Build configuration list for PBXProject "TesteImagemBotoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A52C3C91ABC8B3500CF4B32 /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "Contando" */ = {
+		4A52C3CB1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A52C3CC1ABC8B3500CF4B32 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "ContandoTests" */ = {
+		4A52C3CE1ABC8B3500CF4B32 /* Build configuration list for PBXNativeTarget "TesteImagemBotoesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A52C3CF1ABC8B3500CF4B32 /* Debug */,

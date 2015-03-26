@@ -36,6 +36,17 @@
 @implementation EstatisticaViewController
 
 
+- (instancetype) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self){
+        self.tabBarItem.title = @"Estastística";
+    }
+    
+    return self;
+}
+
+
 - (void) viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
@@ -83,12 +94,17 @@
     self.objetoContadorAngle.quantidadeVoltas = 0;
     self.labelQuantidadeVoltas.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.quantidadeVoltas];
     
+    self.objetoContadorAngle.valorAngleAtual = 0;
+    self.labelAngleAtual.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.valorAngleAtual];
+    
     self.objetoContadorAngle.valorAngle = 0;
     self.labelAngle.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.valorAngle];
     
     self.vetoresCoordenadas.sorteioX = arc4random()%5;
     self.vetoresCoordenadas.sorteioY = arc4random()%8;
     self.vetoresCoordenadas.sorteioAng = arc4random()%17;
+    
+    self.vetoresCoordenadas.resetou = YES;
 
 
 }
