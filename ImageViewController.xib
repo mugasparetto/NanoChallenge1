@@ -22,13 +22,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f1c-tN-9ox">
                     <rect key="frame" x="140" y="388" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< Updated upstream
                     <state key="normal" title=" " backgroundImage="BotãoCima.png">
-=======
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="/\">
->>>>>>> Stashed changes
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="highlighted" backgroundImage="BotãoCima-Highlighted.png"/>
@@ -36,36 +30,21 @@
                         <action selector="praCima:" destination="-1" eventType="touchUpInside" id="fi0-pZ-mjz"/>
                     </connections>
                 </button>
-<<<<<<< Updated upstream
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hIa-8d-cyZ">
                     <rect key="frame" x="254" y="428" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="BotãoHorario.png">
-=======
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f1j-DL-Bfq">
-                    <rect key="frame" x="23" y="459" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="Girar">
->>>>>>> Stashed changes
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="highlighted" backgroundImage="BotãoHorario-Highlighted.png"/>
                     <connections>
-                        <action selector="rotacaoAntiHorario:" destination="-1" eventType="touchUpInside" id="gzF-4c-vLF"/>
+                        <action selector="rotacaoHorario:" destination="-1" eventType="touchUpInside" id="PBw-lr-YPa"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ehQ-Mo-M6k">
                     <rect key="frame" x="100" y="428" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< Updated upstream
                     <state key="normal" backgroundImage="BotãoEsquerda.png">
-=======
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="&lt;">
->>>>>>> Stashed changes
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="highlighted" backgroundImage="BotãoEsquerda-Highlighted.png"/>
@@ -76,13 +55,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HjD-24-EUu">
                     <rect key="frame" x="180" y="428" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< Updated upstream
                     <state key="normal" backgroundImage="BotãoDireita.png">
-=======
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="&gt;">
->>>>>>> Stashed changes
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="highlighted" backgroundImage="BotãoDireita-Highligthed.png"/>
@@ -93,22 +66,15 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hbx-Lk-T2I">
                     <rect key="frame" x="140" y="468" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< Updated upstream
                     <state key="normal" backgroundImage="BotãoBaixo.png">
-=======
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="\/">
->>>>>>> Stashed changes
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="highlighted" backgroundImage="BotãoBaixo-Highlighted.png"/>
                     <connections>
-                        <action selector="praBaixo:" destination="-1" eventType="touchUpInside" id="mqx-1X-pDD"/>
+                        <action selector="praBaixo:" destination="-1" eventType="touchUpInside" id="Onc-Ci-mUZ"/>
                     </connections>
                 </button>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="small-super-mario.png" id="78q-P9-iAB">
-<<<<<<< Updated upstream
                     <rect key="frame" x="110" y="189" width="100" height="127"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -121,19 +87,6 @@
                     <state key="highlighted" backgroundImage="BotãoAntiHorario-Highlighted.png"/>
                     <connections>
                         <action selector="rotacaoAntiHorario:" destination="-1" eventType="touchUpInside" id="gzF-4c-vLF"/>
-=======
-                    <rect key="frame" x="112" y="171" width="100" height="127"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hIa-8d-cyZ">
-                    <rect key="frame" x="256" y="463" width="49" height="25.5"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                    <state key="normal" title="Girar"/>
-                    <connections>
-                        <action selector="rotacaoHorario:" destination="-1" eventType="touchUpInside" id="PBw-lr-YPa"/>
->>>>>>> Stashed changes
                     </connections>
                 </button>
             </subviews>
