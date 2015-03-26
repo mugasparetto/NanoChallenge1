@@ -15,10 +15,10 @@
 		4A52C3C81ABC8B3500CF4B32 /* TesteImagemBotoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52C3C71ABC8B3500CF4B32 /* TesteImagemBotoesTests.m */; };
 		4A52C3D41ABC8B4C00CF4B32 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */; };
 		4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */; };
+		4A6C298E1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C298C1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png */; };
+		4A6C298F1AC472B70097F4BD /* BotãoCima@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C298D1AC472B70097F4BD /* BotãoCima@2x.png */; };
 		4A8E7D361AC087ED007828C5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D351AC087ED007828C5 /* background.png */; };
 		4A8E7D381AC088E6007828C5 /* background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D371AC088E6007828C5 /* background_.png */; };
-		56B60D961AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D941AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png */; };
-		56B60D971AC38C7E0023F65D /* BotãoCima@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D951AC38C7E0023F65D /* BotãoCima@2x.png */; };
 		56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */; };
 		56B60DA21AC396F70023F65D /* BotãoAntiHorario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DA01AC396F70023F65D /* BotãoAntiHorario@2x.png */; };
 		56B60DA51AC397060023F65D /* BotãoBaixo-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DA31AC397060023F65D /* BotãoBaixo-Highlighted@2x.png */; };
@@ -65,10 +65,10 @@
 		4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		4A6C298C1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima-Highlighted@2x.png"; sourceTree = "<group>"; };
+		4A6C298D1AC472B70097F4BD /* BotãoCima@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima@2x.png"; sourceTree = "<group>"; };
 		4A8E7D351AC087ED007828C5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		4A8E7D371AC088E6007828C5 /* background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_.png; sourceTree = "<group>"; };
-		56B60D941AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima-Highlighted@2x.png"; sourceTree = "<group>"; };
-		56B60D951AC38C7E0023F65D /* BotãoCima@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima@2x.png"; sourceTree = "<group>"; };
 		56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoAntiHorario-Highlighted@2x.png"; sourceTree = "<group>"; };
 		56B60DA01AC396F70023F65D /* BotãoAntiHorario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoAntiHorario@2x.png"; sourceTree = "<group>"; };
 		56B60DA31AC397060023F65D /* BotãoBaixo-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoBaixo-Highlighted@2x.png"; sourceTree = "<group>"; };
@@ -199,8 +199,8 @@
 		56B60D981AC3965C0023F65D /* BotaoCima */ = {
 			isa = PBXGroup;
 			children = (
-				56B60D941AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png */,
-				56B60D951AC38C7E0023F65D /* BotãoCima@2x.png */,
+				4A6C298C1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png */,
+				4A6C298D1AC472B70097F4BD /* BotãoCima@2x.png */,
 			);
 			name = BotaoCima;
 			sourceTree = "<group>";
@@ -344,13 +344,14 @@
 				4A52C3BC1ABC8B3500CF4B32 /* LaunchScreen.xib in Resources */,
 				4A8E7D381AC088E6007828C5 /* background_.png in Resources */,
 				56B60DA61AC397060023F65D /* BotãoBaixo@2x.png in Resources */,
+				4A6C298F1AC472B70097F4BD /* BotãoCima@2x.png in Resources */,
 				56B60DB51AC3974A0023F65D /* BotãoReset-Highlighted@2x.png in Resources */,
-				56B60D961AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png in Resources */,
 				56B60DAA1AC397130023F65D /* BotãoDireita@2x.png in Resources */,
 				56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */,
 				56B60DAE1AC3972C0023F65D /* BotãoEsquerda@2x.png in Resources */,
 				4A8E7D361AC087ED007828C5 /* background.png in Resources */,
 				56B60DA21AC396F70023F65D /* BotãoAntiHorario@2x.png in Resources */,
+				4A6C298E1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png in Resources */,
 				4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */,
 				56B60DB61AC3974A0023F65D /* BotãoReset@2x.png in Resources */,
 				4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */,
@@ -359,7 +360,6 @@
 				56B60DA51AC397060023F65D /* BotãoBaixo-Highlighted@2x.png in Resources */,
 				56B60DA91AC397130023F65D /* BotãoDireita-Highligthed@2x.png in Resources */,
 				4A52C3B91ABC8B3500CF4B32 /* Images.xcassets in Resources */,
-				56B60D971AC38C7E0023F65D /* BotãoCima@2x.png in Resources */,
 				C499ECCC1AC33E5500768632 /* EstatisticaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

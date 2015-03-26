@@ -17,6 +17,7 @@
 @interface ImageViewController ()
 
 @property (nonatomic, weak) IBOutlet UIImageView *mario;
+@property (nonatomic, weak) IBOutlet UIScrollView *scroll;
 @property (nonatomic) CGFloat anglo;
 @property CGSize startSize;
 
@@ -47,6 +48,8 @@
     self.objetoContadorCima = [contadorCima instance];
     self.objetoContadorBaixo = [contadorBaixo instance];
     self.objetoContadorAngle = [contadorAngle instance];
+    self.scroll.contentSize=CGSizeMake(960,568);
+    self.scroll.bounces=NO;
     // Do any additional setup after loading the view from its nib.
 }
 

@@ -22,7 +22,7 @@
     // Override point for customization after application launch.
     
     ImageViewController *ivc = [[ImageViewController alloc] init];
-//    self.window.rootViewController = ivc;
+    
     
     EstatisticaViewController *evc = [[EstatisticaViewController alloc] init];
     
