@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -19,71 +19,76 @@
                     <rect key="frame" x="-200" y="-22" width="960" height="600"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f1c-tN-9ox">
-                    <rect key="frame" x="144" y="428" width="30" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f1c-tN-9ox">
+                    <rect key="frame" x="140" y="388" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="/\">
+                    <state key="normal" title=" " backgroundImage="BotãoCima.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="highlighted" backgroundImage="BotãoCima-Highlighted.png"/>
                     <connections>
                         <action selector="praCima:" destination="-1" eventType="touchUpInside" id="fi0-pZ-mjz"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f1j-DL-Bfq">
-                    <rect key="frame" x="23" y="459" width="34" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hIa-8d-cyZ">
+                    <rect key="frame" x="254" y="428" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Girar">
+                    <state key="normal" backgroundImage="BotãoHorario.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <connections>
-                        <action selector="rotacaoAntiHorario:" destination="-1" eventType="touchUpInside" id="gzF-4c-vLF"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hIa-8d-cyZ">
-                    <rect key="frame" x="263" y="459" width="34" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <state key="normal" title="Girar">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
+                    <state key="highlighted" backgroundImage="BotãoHorario-Highlighted.png"/>
                     <connections>
                         <action selector="rotacaoHorario:" destination="-1" eventType="touchUpInside" id="PBw-lr-YPa"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ehQ-Mo-M6k">
-                    <rect key="frame" x="106" y="457" width="30" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ehQ-Mo-M6k">
+                    <rect key="frame" x="100" y="428" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="&lt;">
+                    <state key="normal" backgroundImage="BotãoEsquerda.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="highlighted" backgroundImage="BotãoEsquerda-Highlighted.png"/>
                     <connections>
                         <action selector="praEsquerda:" destination="-1" eventType="touchUpInside" id="Ktn-hU-Rkk"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HjD-24-EUu">
-                    <rect key="frame" x="182" y="457" width="30" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HjD-24-EUu">
+                    <rect key="frame" x="180" y="428" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="&gt;">
+                    <state key="normal" backgroundImage="BotãoDireita.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="highlighted" backgroundImage="BotãoDireita-Highligthed.png"/>
                     <connections>
                         <action selector="praDireita:" destination="-1" eventType="touchUpInside" id="bSz-9u-yWB"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hbx-Lk-T2I">
-                    <rect key="frame" x="144" y="489" width="30" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hbx-Lk-T2I">
+                    <rect key="frame" x="140" y="468" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="\/">
+                    <state key="normal" backgroundImage="BotãoBaixo.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="highlighted" backgroundImage="BotãoBaixo-Highlighted.png"/>
                     <connections>
                         <action selector="praBaixo:" destination="-1" eventType="touchUpInside" id="Onc-Ci-mUZ"/>
                     </connections>
                 </button>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="small-super-mario.png" id="78q-P9-iAB">
-                    <rect key="frame" x="8" y="296" width="100" height="127"/>
+                    <rect key="frame" x="110" y="189" width="100" height="127"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f1j-DL-Bfq">
+                    <rect key="frame" x="28" y="428" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="BotãoAntiHorario.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="BotãoAntiHorario-Highlighted.png"/>
+                    <connections>
+                        <action selector="rotacaoAntiHorario:" destination="-1" eventType="touchUpInside" id="gzF-4c-vLF"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -91,6 +96,18 @@
         </view>
     </objects>
     <resources>
+        <image name="BotãoAntiHorario-Highlighted.png" width="20" height="20"/>
+        <image name="BotãoAntiHorario.png" width="20" height="20"/>
+        <image name="BotãoBaixo-Highlighted.png" width="20" height="20"/>
+        <image name="BotãoBaixo.png" width="20" height="20"/>
+        <image name="BotãoCima-Highlighted.png" width="20" height="20"/>
+        <image name="BotãoCima.png" width="20" height="20"/>
+        <image name="BotãoDireita-Highligthed.png" width="20" height="20"/>
+        <image name="BotãoDireita.png" width="20" height="20"/>
+        <image name="BotãoEsquerda-Highlighted.png" width="20" height="20"/>
+        <image name="BotãoEsquerda.png" width="20" height="20"/>
+        <image name="BotãoHorario-Highlighted.png" width="20" height="20"/>
+        <image name="BotãoHorario.png" width="20" height="20"/>
         <image name="background_.png" width="960" height="600"/>
         <image name="small-super-mario.png" width="100" height="126"/>
     </resources>

@@ -80,6 +80,10 @@
     
     self.objetoContadorAngle.quantidadeVoltas = 0;
     self.labelQuantidadeVoltas.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.quantidadeVoltas];
+    
+    self.objetoContadorAngle.valorAngle = 0;
+    self.labelAngle.text = [NSString stringWithFormat:@"%d", self.objetoContadorAngle.valorAngle];
+
 
 }
 

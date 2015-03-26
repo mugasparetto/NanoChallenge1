@@ -56,7 +56,7 @@
 }
 
 - (IBAction)praBaixo:(id)sender {
-    if (self.mario.frame.origin.y < 300) {
+    if (self.mario.frame.origin.y < 240) {
     [self.mario setFrame:CGRectMake(self.mario.frame.origin.x, self.mario.frame.origin.y + 20, self.mario.frame.size.width, self.mario.frame.size.height)];
        [self.mario setBounds:CGRectMake(0, 0, self.startSize.width, self.startSize.height)];
         [self.objetoContadorBaixo maisUm];

@@ -17,6 +17,20 @@
 		4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */; };
 		4A8E7D361AC087ED007828C5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D351AC087ED007828C5 /* background.png */; };
 		4A8E7D381AC088E6007828C5 /* background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D371AC088E6007828C5 /* background_.png */; };
+		56B60D961AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D941AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png */; };
+		56B60D971AC38C7E0023F65D /* BotãoCima@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D951AC38C7E0023F65D /* BotãoCima@2x.png */; };
+		56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */; };
+		56B60DA21AC396F70023F65D /* BotãoAntiHorario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DA01AC396F70023F65D /* BotãoAntiHorario@2x.png */; };
+		56B60DA51AC397060023F65D /* BotãoBaixo-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DA31AC397060023F65D /* BotãoBaixo-Highlighted@2x.png */; };
+		56B60DA61AC397060023F65D /* BotãoBaixo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DA41AC397060023F65D /* BotãoBaixo@2x.png */; };
+		56B60DA91AC397130023F65D /* BotãoDireita-Highligthed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DA71AC397130023F65D /* BotãoDireita-Highligthed@2x.png */; };
+		56B60DAA1AC397130023F65D /* BotãoDireita@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DA81AC397130023F65D /* BotãoDireita@2x.png */; };
+		56B60DAD1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DAB1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png */; };
+		56B60DAE1AC3972C0023F65D /* BotãoEsquerda@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DAC1AC3972C0023F65D /* BotãoEsquerda@2x.png */; };
+		56B60DB11AC3973E0023F65D /* BotãoHorario-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DAF1AC3973E0023F65D /* BotãoHorario-Highlighted@2x.png */; };
+		56B60DB21AC3973E0023F65D /* BotãoHorario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DB01AC3973E0023F65D /* BotãoHorario@2x.png */; };
+		56B60DB51AC3974A0023F65D /* BotãoReset-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DB31AC3974A0023F65D /* BotãoReset-Highlighted@2x.png */; };
+		56B60DB61AC3974A0023F65D /* BotãoReset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60DB41AC3974A0023F65D /* BotãoReset@2x.png */; };
 		C499ECCB1AC33E5500768632 /* EstatisticaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECC91AC33E5500768632 /* EstatisticaViewController.m */; };
 		C499ECCC1AC33E5500768632 /* EstatisticaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C499ECCA1AC33E5500768632 /* EstatisticaViewController.xib */; };
 		C499ECCF1AC3405000768632 /* contadorDireita.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECCE1AC3405000768632 /* contadorDireita.m */; };
@@ -53,6 +67,20 @@
 		4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		4A8E7D351AC087ED007828C5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		4A8E7D371AC088E6007828C5 /* background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_.png; sourceTree = "<group>"; };
+		56B60D941AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima-Highlighted@2x.png"; sourceTree = "<group>"; };
+		56B60D951AC38C7E0023F65D /* BotãoCima@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoCima@2x.png"; sourceTree = "<group>"; };
+		56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoAntiHorario-Highlighted@2x.png"; sourceTree = "<group>"; };
+		56B60DA01AC396F70023F65D /* BotãoAntiHorario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoAntiHorario@2x.png"; sourceTree = "<group>"; };
+		56B60DA31AC397060023F65D /* BotãoBaixo-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoBaixo-Highlighted@2x.png"; sourceTree = "<group>"; };
+		56B60DA41AC397060023F65D /* BotãoBaixo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoBaixo@2x.png"; sourceTree = "<group>"; };
+		56B60DA71AC397130023F65D /* BotãoDireita-Highligthed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoDireita-Highligthed@2x.png"; sourceTree = "<group>"; };
+		56B60DA81AC397130023F65D /* BotãoDireita@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoDireita@2x.png"; sourceTree = "<group>"; };
+		56B60DAB1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoEsquerda-Highlighted@2x.png"; sourceTree = "<group>"; };
+		56B60DAC1AC3972C0023F65D /* BotãoEsquerda@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoEsquerda@2x.png"; sourceTree = "<group>"; };
+		56B60DAF1AC3973E0023F65D /* BotãoHorario-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoHorario-Highlighted@2x.png"; sourceTree = "<group>"; };
+		56B60DB01AC3973E0023F65D /* BotãoHorario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoHorario@2x.png"; sourceTree = "<group>"; };
+		56B60DB31AC3974A0023F65D /* BotãoReset-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoReset-Highlighted@2x.png"; sourceTree = "<group>"; };
+		56B60DB41AC3974A0023F65D /* BotãoReset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoReset@2x.png"; sourceTree = "<group>"; };
 		C499ECC81AC33E5500768632 /* EstatisticaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstatisticaViewController.h; sourceTree = "<group>"; };
 		C499ECC91AC33E5500768632 /* EstatisticaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstatisticaViewController.m; sourceTree = "<group>"; };
 		C499ECCA1AC33E5500768632 /* EstatisticaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EstatisticaViewController.xib; sourceTree = "<group>"; };
@@ -111,6 +139,13 @@
 				4A3C83A11ABC95C20047783A /* small-super-mario.png */,
 				4A8E7D351AC087ED007828C5 /* background.png */,
 				4A8E7D371AC088E6007828C5 /* background_.png */,
+				56B60D9B1AC3969C0023F65D /* BotaoEsquerda */,
+				56B60D9A1AC396950023F65D /* BotaoDireita */,
+				56B60D9C1AC396A30023F65D /* BotaoHorario */,
+				56B60D9D1AC396AA0023F65D /* BotaoAntiHorario */,
+				56B60D9E1AC396B10023F65D /* BotaoReset */,
+				56B60D991AC396870023F65D /* BotaoBaixo */,
+				56B60D981AC3965C0023F65D /* BotaoCima */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +194,69 @@
 				4A52C3C61ABC8B3500CF4B32 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56B60D981AC3965C0023F65D /* BotaoCima */ = {
+			isa = PBXGroup;
+			children = (
+				56B60D941AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png */,
+				56B60D951AC38C7E0023F65D /* BotãoCima@2x.png */,
+			);
+			name = BotaoCima;
+			sourceTree = "<group>";
+		};
+		56B60D991AC396870023F65D /* BotaoBaixo */ = {
+			isa = PBXGroup;
+			children = (
+				56B60DA31AC397060023F65D /* BotãoBaixo-Highlighted@2x.png */,
+				56B60DA41AC397060023F65D /* BotãoBaixo@2x.png */,
+			);
+			name = BotaoBaixo;
+			sourceTree = "<group>";
+		};
+		56B60D9A1AC396950023F65D /* BotaoDireita */ = {
+			isa = PBXGroup;
+			children = (
+				56B60DA71AC397130023F65D /* BotãoDireita-Highligthed@2x.png */,
+				56B60DA81AC397130023F65D /* BotãoDireita@2x.png */,
+			);
+			name = BotaoDireita;
+			sourceTree = "<group>";
+		};
+		56B60D9B1AC3969C0023F65D /* BotaoEsquerda */ = {
+			isa = PBXGroup;
+			children = (
+				56B60DAB1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png */,
+				56B60DAC1AC3972C0023F65D /* BotãoEsquerda@2x.png */,
+			);
+			name = BotaoEsquerda;
+			sourceTree = "<group>";
+		};
+		56B60D9C1AC396A30023F65D /* BotaoHorario */ = {
+			isa = PBXGroup;
+			children = (
+				56B60DAF1AC3973E0023F65D /* BotãoHorario-Highlighted@2x.png */,
+				56B60DB01AC3973E0023F65D /* BotãoHorario@2x.png */,
+			);
+			name = BotaoHorario;
+			sourceTree = "<group>";
+		};
+		56B60D9D1AC396AA0023F65D /* BotaoAntiHorario */ = {
+			isa = PBXGroup;
+			children = (
+				56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */,
+				56B60DA01AC396F70023F65D /* BotãoAntiHorario@2x.png */,
+			);
+			name = BotaoAntiHorario;
+			sourceTree = "<group>";
+		};
+		56B60D9E1AC396B10023F65D /* BotaoReset */ = {
+			isa = PBXGroup;
+			children = (
+				56B60DB31AC3974A0023F65D /* BotãoReset-Highlighted@2x.png */,
+				56B60DB41AC3974A0023F65D /* BotãoReset@2x.png */,
+			);
+			name = BotaoReset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +308,7 @@
 				TargetAttributes = {
 					4A52C3AD1ABC8B3500CF4B32 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = VRLPG8J2DR;
 					};
 					4A52C3C01ABC8B3500CF4B32 = {
 						CreatedOnToolsVersion = 6.2;
@@ -241,12 +340,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56B60DB11AC3973E0023F65D /* BotãoHorario-Highlighted@2x.png in Resources */,
 				4A52C3BC1ABC8B3500CF4B32 /* LaunchScreen.xib in Resources */,
 				4A8E7D381AC088E6007828C5 /* background_.png in Resources */,
+				56B60DA61AC397060023F65D /* BotãoBaixo@2x.png in Resources */,
+				56B60DB51AC3974A0023F65D /* BotãoReset-Highlighted@2x.png in Resources */,
+				56B60D961AC38C7E0023F65D /* BotãoCima-Highlighted@2x.png in Resources */,
+				56B60DAA1AC397130023F65D /* BotãoDireita@2x.png in Resources */,
+				56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */,
+				56B60DAE1AC3972C0023F65D /* BotãoEsquerda@2x.png in Resources */,
 				4A8E7D361AC087ED007828C5 /* background.png in Resources */,
+				56B60DA21AC396F70023F65D /* BotãoAntiHorario@2x.png in Resources */,
 				4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */,
+				56B60DB61AC3974A0023F65D /* BotãoReset@2x.png in Resources */,
 				4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */,
+				56B60DAD1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png in Resources */,
+				56B60DB21AC3973E0023F65D /* BotãoHorario@2x.png in Resources */,
+				56B60DA51AC397060023F65D /* BotãoBaixo-Highlighted@2x.png in Resources */,
+				56B60DA91AC397130023F65D /* BotãoDireita-Highligthed@2x.png in Resources */,
 				4A52C3B91ABC8B3500CF4B32 /* Images.xcassets in Resources */,
+				56B60D971AC38C7E0023F65D /* BotãoCima@2x.png in Resources */,
 				C499ECCC1AC33E5500768632 /* EstatisticaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,9 +500,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TesteImagemBotoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TesteImagemBotoes;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -397,9 +513,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TesteImagemBotoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TesteImagemBotoes;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

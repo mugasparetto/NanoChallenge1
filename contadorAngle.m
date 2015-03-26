@@ -41,7 +41,6 @@
     self.valorAngle += 20;
     self.valorAngleAtual = self.valorAngle%360;
     self.quantidadeVoltas = self.valorAngle/360;
-    NSLog(@"%d", self.quantidadeVoltas);
     
 }
 
@@ -50,7 +49,6 @@
     self.valorAngle -= 20;
     self.valorAngleAtual = self.valorAngle%360;
     self.quantidadeVoltas = self.valorAngle/360;
-    NSLog(@"%d", self.quantidadeVoltas);
     
 }
 
