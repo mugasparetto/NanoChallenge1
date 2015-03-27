@@ -99,6 +99,7 @@
     self.sombra.transform = CGAffineTransformMakeRotation([auxAng floatValue]);
     self.sombra.bounds = CGRectMake(0, 0, self.startSize.width, self.startSize.height);
     
+    
     if (self.vetoresCoordenadas.resetou){
         self.anglo = 0;
         self.mario.transform = CGAffineTransformMakeRotation(self.anglo);
@@ -125,6 +126,18 @@
         
         [self.objetoContadorBaixo maisUm];
     }
+    
+    if (trunc(self.mario.frame.origin.x*100)/100 == trunc(self.sombra.frame.origin.x*100)/100 ){
+        if (trunc(self.mario.frame.origin.y*100)/100 == trunc(self.sombra.frame.origin.y*100)/100){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Encaixou!"
+                                                            message:@"Vá na aba Estastísticas"
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+    }
+    
 }
 
 - (IBAction)praCima:(id)sender{
@@ -137,6 +150,18 @@
         
         [self.objetoContadorCima maisUm];
     }
+    
+    if (trunc(self.mario.frame.origin.x*100)/100 == trunc(self.sombra.frame.origin.x*100)/100 ){
+        if (trunc(self.mario.frame.origin.y*100)/100 == trunc(self.sombra.frame.origin.y*100)/100){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Encaixou!"
+                                                            message:@"Vá na aba Estastísticas"
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+    }
+    
 }
 
 - (IBAction)praDireita:(id)sender{
@@ -148,6 +173,17 @@
                                          self.startSize.width, self.startSize.height)];
         
         [self.objetoContadorDireto maisUm];
+    }
+    
+    if (trunc(self.mario.frame.origin.x*100)/100 == trunc(self.sombra.frame.origin.x*100)/100 ){
+        if (trunc(self.mario.frame.origin.y*100)/100 == trunc(self.sombra.frame.origin.y*100)/100){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Encaixou!"
+                                                            message:@"Vá na aba Estastísticas"
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
     }
 }
 
@@ -161,18 +197,51 @@
         
         [self.objetoContadorEsquerda maisUm];
     }
+    
+    if (trunc(self.mario.frame.origin.x*100)/100 == trunc(self.sombra.frame.origin.x*100)/100 ){
+        if (trunc(self.mario.frame.origin.y*100)/100 == trunc(self.sombra.frame.origin.y*100)/100){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Encaixou!"
+                                                            message:@"Vá na aba Estastísticas"
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+    }
 }
 
 - (IBAction)rotacaoHorario:(id)sender{
     self.anglo = self.anglo + .34906585;
     self.mario.transform = CGAffineTransformMakeRotation(self.anglo);
     [self.objetoContadorAngle maisVinte];
+    
+    if (trunc(self.mario.frame.origin.x*100)/100 == trunc(self.sombra.frame.origin.x*100)/100 ){
+        if (trunc(self.mario.frame.origin.y*100)/100 == trunc(self.sombra.frame.origin.y*100)/100){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Encaixou!"
+                                                            message:@"Vá na aba Estastísticas"
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+    }
 }
 
 - (IBAction)rotacaoAntiHorario:(id)sender{
     self.anglo = self.anglo - .34906585;
     self.mario.transform = CGAffineTransformMakeRotation(self.anglo);
     [self.objetoContadorAngle menosVinte];
+    
+    if (trunc(self.mario.frame.origin.x*100)/100 == trunc(self.sombra.frame.origin.x*100)/100 ){
+        if (trunc(self.mario.frame.origin.y*100)/100 == trunc(self.sombra.frame.origin.y*100)/100){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Encaixou!"
+                                                            message:@"Vá na aba Estastísticas"
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+    }
 }
 
 - (IBAction)play:(id)sender{
