@@ -23,7 +23,6 @@
     
     ImageViewController *ivc = [[ImageViewController alloc] init];
     
-    
     EstatisticaViewController *evc = [[EstatisticaViewController alloc] init];
     
     UITabBarController *tbc = [[UITabBarController alloc] init];

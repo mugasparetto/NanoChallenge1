@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Murilo Gasparetto. All rights reserved.
 //
 
+#import <AVFoundation/AVFoundation.h>
 #import "ImageViewController.h"
 #import "EstatisticaViewController.h"
 #import "contadorDireita.h"
@@ -17,11 +18,17 @@
 
 @interface ImageViewController ()
 
+{
+    AVAudioPlayer *_musicaFundo;
+    int _startMusica;
+}
+
 @property (nonatomic, weak) IBOutlet UIImageView *mario;
 @property (nonatomic, weak) IBOutlet UIScrollView *scroll;
 @property (nonatomic) UIImageView *sombra;
 @property (nonatomic) CGFloat anglo;
 @property CGSize startSize;
+
 
 @property (nonatomic) contadorDireita *objetoContadorDireto;
 @property (nonatomic) contadorEsquerda *objetoContadorEsquerda;
@@ -40,14 +47,16 @@
     
     if (self){
         self.anglo = 0;
+        _startMusica = 1;
         self.tabBarItem.title = @"Jogo";
     }
-    
+
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     //self.mario.backgroundColor = [UIColor redColor];
     self.startSize = self.mario.frame.size;
     self.objetoContadorEsquerda = [contadorEsquerda instance];
@@ -65,6 +74,15 @@
     self.sombra.image=[UIImage imageNamed:@"small-super-mario-sombra.png"];
     [self.view insertSubview:self.sombra belowSubview:self.mario];
     // Do any additional setup after loading the view from its nib.
+    
+    NSString *path = [NSString stringWithFormat:@"%@/sound-mario.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    _musicaFundo = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    _musicaFundo.numberOfLoops = -1;
+    [_musicaFundo play];
+    
+    
 }
 
 - (void) viewWillAppear:(BOOL)animated{
@@ -97,32 +115,48 @@
 
 - (IBAction)praBaixo:(id)sender {
     if (self.mario.frame.origin.y < 240) {
-    [self.mario setFrame:CGRectMake(self.mario.frame.origin.x, self.mario.frame.origin.y + 20, self.mario.frame.size.width, self.mario.frame.size.height)];
-       [self.mario setBounds:CGRectMake(0, 0, self.startSize.width, self.startSize.height)];
+        [self.mario setFrame:CGRectMake(self.mario.frame.origin.x, self.mario.frame.origin.y + 20,
+                                        self.mario.frame.size.width, self.mario.frame.size.height)];
+        
+        [self.mario setBounds:CGRectMake(0, 0,
+                                         self.startSize.width, self.startSize.height)];
+        
         [self.objetoContadorBaixo maisUm];
     }
 }
 
 - (IBAction)praCima:(id)sender{
     if (self.mario.frame.origin.y > 30) {
-        [self.mario setFrame:CGRectMake(self.mario.frame.origin.x, self.mario.frame.origin.y-20, self.mario.frame.size.width, self.mario.frame.size.height)];
-    [self.mario setBounds:CGRectMake(0, 0, self.startSize.width, self.startSize.height)];
+        [self.mario setFrame:CGRectMake(self.mario.frame.origin.x, self.mario.frame.origin.y-20,
+                                        self.mario.frame.size.width, self.mario.frame.size.height)];
+        
+        [self.mario setBounds:CGRectMake(0, 0,
+                                         self.startSize.width, self.startSize.height)];
+        
         [self.objetoContadorCima maisUm];
     }
 }
 
 - (IBAction)praDireita:(id)sender{
     if (self.mario.frame.origin.x < 180) {
-    [self.mario setFrame:CGRectMake(self.mario.frame.origin.x+20, self.mario.frame.origin.y, self.mario.frame.size.width, self.mario.frame.size.height)];
-    [self.mario setBounds:CGRectMake(0, 0, self.startSize.width, self.startSize.height)];
+        [self.mario setFrame:CGRectMake(self.mario.frame.origin.x+20, self.mario.frame.origin.y,
+                                    self.mario.frame.size.width, self.mario.frame.size.height)];
+        
+        [self.mario setBounds:CGRectMake(0, 0,
+                                         self.startSize.width, self.startSize.height)];
+        
         [self.objetoContadorDireto maisUm];
     }
 }
 
 - (IBAction)praEsquerda:(id)sender{
     if (self.mario.frame.origin.x > 30) {
-    [self.mario setFrame:CGRectMake(self.mario.frame.origin.x-20, self.mario.frame.origin.y, self.mario.frame.size.width, self.mario.frame.size.height)];
-    [self.mario setBounds:CGRectMake(0, 0, self.startSize.width, self.startSize.height)];
+        [self.mario setFrame:CGRectMake(self.mario.frame.origin.x-20, self.mario.frame.origin.y,
+                                        self.mario.frame.size.width, self.mario.frame.size.height)];
+        
+        [self.mario setBounds:CGRectMake(0, 0,
+                                         self.startSize.width, self.startSize.height)];
+        
         [self.objetoContadorEsquerda maisUm];
     }
 }
@@ -139,6 +173,23 @@
     [self.objetoContadorAngle menosVinte];
 }
 
+- (IBAction)play:(id)sender{
+    
+    int aux = 1;
+    
+    if (_startMusica == 0) {
+        [_musicaFundo play];
+        aux = 1;
+    }
+    
+    if (_startMusica == 1) {
+        [_musicaFundo stop];
+        aux = 0;
+    }
+    
+    _startMusica = aux;
+    
+}
 
 /*
 #pragma mark - Navigation

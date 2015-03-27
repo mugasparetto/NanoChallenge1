@@ -26,7 +26,6 @@
     
 }
 
-
 - (instancetype)initPrivite {
     
     self = [super init];
