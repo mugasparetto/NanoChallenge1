@@ -97,11 +97,11 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lCb-5J-ye0">
-                    <rect key="frame" x="270" y="40" width="40" height="30"/>
+                    <rect key="frame" x="270" y="40" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="SOM"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="somOn.png"/>
                     <state key="selected" backgroundImage="somOff.png"/>
-                    <state key="highlighted" title="SOM"/>
                     <connections>
                         <action selector="play:" destination="-1" eventType="touchUpInside" id="uf0-Qb-Fgc"/>
                     </connections>
@@ -128,6 +128,7 @@
         <image name="background_.png" width="960" height="600"/>
         <image name="small-super-mario.png" width="100" height="126"/>
         <image name="somOff.png" width="256" height="256"/>
+        <image name="somOn.png" width="256" height="256"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -179,14 +179,20 @@
     
     int aux = 1;
     
-    if (_startMusica == 0) {
+    if ([sender isSelected]) {
         [_musicaFundo play];
         aux = 1;
+        UIImage *unselectedImage = [UIImage imageNamed:@"somOn.png"];
+        [sender setBackgroundImage:unselectedImage forState:UIControlStateNormal];
+        [sender setSelected:NO];
     }
     
-    if (_startMusica == 1) {
+    else{
         [_musicaFundo stop];
         aux = 0;
+        UIImage *selectedImage = [UIImage imageNamed:@"somOff.png"];
+        [sender setBackgroundImage:selectedImage forState:UIControlStateSelected];
+        [sender setSelected:YES];
     }
     
     
