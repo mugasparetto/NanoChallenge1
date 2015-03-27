@@ -41,6 +41,8 @@
     
     if (self){
         self.tabBarItem.title = @"Estastística";
+        UIImage *i = [UIImage imageNamed:@"IconeEstatistica2.png"];
+        self.tabBarItem.image = i;
     }
     
     return self;

@@ -41,16 +41,6 @@
                     <rect key="frame" x="110" y="190" width="100" height="127"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lCb-5J-ye0">
-                    <rect key="frame" x="5" y="380" width="35" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="SOM">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="play:" destination="-1" eventType="touchUpInside" id="uf0-Qb-Fgc"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hIa-8d-cyZ">
                     <rect key="frame" x="254" y="428" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -106,6 +96,16 @@
                         <action selector="rotacaoAntiHorario:" destination="-1" eventType="touchUpInside" id="gzF-4c-vLF"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lCb-5J-ye0">
+                    <rect key="frame" x="270" y="40" width="40" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="SOM"/>
+                    <state key="selected" backgroundImage="somOff.png"/>
+                    <state key="highlighted" title="SOM"/>
+                    <connections>
+                        <action selector="play:" destination="-1" eventType="touchUpInside" id="uf0-Qb-Fgc"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -127,6 +127,7 @@
         <image name="BotãoHorario.png" width="20" height="20"/>
         <image name="background_.png" width="960" height="600"/>
         <image name="small-super-mario.png" width="100" height="126"/>
+        <image name="somOff.png" width="256" height="256"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

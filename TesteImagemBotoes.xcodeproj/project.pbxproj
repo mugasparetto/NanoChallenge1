@@ -19,6 +19,11 @@
 		4A6C298F1AC472B70097F4BD /* BotãoCima@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C298D1AC472B70097F4BD /* BotãoCima@2x.png */; };
 		4A6C29911AC4816F0097F4BD /* small-super-mario-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */; };
 		4A6C29941AC4938D0097F4BD /* Coordenadas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C29931AC4938D0097F4BD /* Coordenadas.m */; };
+		4A7363011AC5BD90003E5150 /* IconeApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7362FE1AC5BD90003E5150 /* IconeApp.png */; };
+		4A7363071AC5BE87003E5150 /* IconeGame2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7363061AC5BE87003E5150 /* IconeGame2.png */; };
+		4A7363091AC5BEC8003E5150 /* IconeEstatistica2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7363081AC5BEC8003E5150 /* IconeEstatistica2.png */; };
+		4A73630C1AC5C275003E5150 /* somOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A73630A1AC5C275003E5150 /* somOff.png */; };
+		4A73630D1AC5C275003E5150 /* somOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A73630B1AC5C275003E5150 /* somOn.png */; };
 		4A8E7D361AC087ED007828C5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D351AC087ED007828C5 /* background.png */; };
 		4A8E7D381AC088E6007828C5 /* background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8E7D371AC088E6007828C5 /* background_.png */; };
 		56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */; };
@@ -73,6 +78,11 @@
 		4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-super-mario-sombra.png"; sourceTree = "<group>"; };
 		4A6C29921AC4938D0097F4BD /* Coordenadas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordenadas.h; sourceTree = "<group>"; };
 		4A6C29931AC4938D0097F4BD /* Coordenadas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordenadas.m; sourceTree = "<group>"; };
+		4A7362FE1AC5BD90003E5150 /* IconeApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconeApp.png; sourceTree = "<group>"; };
+		4A7363061AC5BE87003E5150 /* IconeGame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconeGame2.png; sourceTree = "<group>"; };
+		4A7363081AC5BEC8003E5150 /* IconeEstatistica2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconeEstatistica2.png; sourceTree = "<group>"; };
+		4A73630A1AC5C275003E5150 /* somOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = somOff.png; sourceTree = "<group>"; };
+		4A73630B1AC5C275003E5150 /* somOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = somOn.png; sourceTree = "<group>"; };
 		4A8E7D351AC087ED007828C5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		4A8E7D371AC088E6007828C5 /* background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_.png; sourceTree = "<group>"; };
 		56B60D9F1AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BotãoAntiHorario-Highlighted@2x.png"; sourceTree = "<group>"; };
@@ -146,9 +156,14 @@
 				4A52C3C41ABC8B3500CF4B32 /* TesteImagemBotoesTests */,
 				4A52C3AF1ABC8B3500CF4B32 /* Products */,
 				4A3C83A11ABC95C20047783A /* small-super-mario.png */,
+				4A73630A1AC5C275003E5150 /* somOff.png */,
+				4A73630B1AC5C275003E5150 /* somOn.png */,
 				4A8E7D351AC087ED007828C5 /* background.png */,
 				4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */,
 				4A8E7D371AC088E6007828C5 /* background_.png */,
+				4A7363081AC5BEC8003E5150 /* IconeEstatistica2.png */,
+				4A7362FE1AC5BD90003E5150 /* IconeApp.png */,
+				4A7363061AC5BE87003E5150 /* IconeGame2.png */,
 				C4FF36331AC5971C0041C40F /* Som */,
 				56B60D9B1AC3969C0023F65D /* BotaoEsquerda */,
 				56B60D9A1AC396950023F65D /* BotaoDireita */,
@@ -367,13 +382,18 @@
 				56B60DB51AC3974A0023F65D /* BotãoReset-Highlighted@2x.png in Resources */,
 				56B60DAA1AC397130023F65D /* BotãoDireita@2x.png in Resources */,
 				56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */,
+				4A73630D1AC5C275003E5150 /* somOn.png in Resources */,
 				56B60DAE1AC3972C0023F65D /* BotãoEsquerda@2x.png in Resources */,
 				4A8E7D361AC087ED007828C5 /* background.png in Resources */,
 				56B60DA21AC396F70023F65D /* BotãoAntiHorario@2x.png in Resources */,
 				4A6C298E1AC472B70097F4BD /* BotãoCima-Highlighted@2x.png in Resources */,
 				4A52C3D51ABC8B4C00CF4B32 /* ImageViewController.xib in Resources */,
+				4A7363071AC5BE87003E5150 /* IconeGame2.png in Resources */,
 				56B60DB61AC3974A0023F65D /* BotãoReset@2x.png in Resources */,
+				4A7363011AC5BD90003E5150 /* IconeApp.png in Resources */,
+				4A7363091AC5BEC8003E5150 /* IconeEstatistica2.png in Resources */,
 				4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */,
+				4A73630C1AC5C275003E5150 /* somOff.png in Resources */,
 				56B60DAD1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png in Resources */,
 				4A6C29911AC4816F0097F4BD /* small-super-mario-sombra.png in Resources */,
 				C4FF36321AC596F00041C40F /* sound-mario.mp3 in Resources */,

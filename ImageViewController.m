@@ -49,6 +49,8 @@
         self.anglo = 0;
         _startMusica = 1;
         self.tabBarItem.title = @"Jogo";
+        UIImage *i = [UIImage imageNamed:@"IconeGame2.png"];
+        self.tabBarItem.image = i;
     }
 
     return self;
@@ -187,9 +189,12 @@
         aux = 0;
     }
     
+    
     _startMusica = aux;
     
+    
 }
+
 
 /*
 #pragma mark - Navigation
