@@ -45,6 +45,9 @@
 		C499ECD51AC3409B00768632 /* contadorCima.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECD41AC3409B00768632 /* contadorCima.m */; };
 		C499ECD81AC340B600768632 /* contadorBaixo.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECD71AC340B600768632 /* contadorBaixo.m */; };
 		C499ECDB1AC340C700768632 /* contadorAngle.m in Sources */ = {isa = PBXBuildFile; fileRef = C499ECDA1AC340C700768632 /* contadorAngle.m */; };
+		C4E3FC9C1ADC101A0036A3AC /* imagem1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E3FC991ADC101A0036A3AC /* imagem1.png */; };
+		C4E3FC9D1ADC101A0036A3AC /* imagem2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E3FC9A1ADC101A0036A3AC /* imagem2.png */; };
+		C4E3FC9E1ADC101A0036A3AC /* imagem3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E3FC9B1ADC101A0036A3AC /* imagem3.png */; };
 		C4FF36321AC596F00041C40F /* sound-mario.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4FF36311AC596F00041C40F /* sound-mario.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +113,9 @@
 		C499ECD71AC340B600768632 /* contadorBaixo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contadorBaixo.m; sourceTree = "<group>"; };
 		C499ECD91AC340C700768632 /* contadorAngle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contadorAngle.h; sourceTree = "<group>"; };
 		C499ECDA1AC340C700768632 /* contadorAngle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contadorAngle.m; sourceTree = "<group>"; };
+		C4E3FC991ADC101A0036A3AC /* imagem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagem1.png; sourceTree = "<group>"; };
+		C4E3FC9A1ADC101A0036A3AC /* imagem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagem2.png; sourceTree = "<group>"; };
+		C4E3FC9B1ADC101A0036A3AC /* imagem3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagem3.png; sourceTree = "<group>"; };
 		C4FF36311AC596F00041C40F /* sound-mario.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-mario.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +140,9 @@
 		4A52C3A51ABC8B3500CF4B32 = {
 			isa = PBXGroup;
 			children = (
+				C4E3FC991ADC101A0036A3AC /* imagem1.png */,
+				C4E3FC9A1ADC101A0036A3AC /* imagem2.png */,
+				C4E3FC9B1ADC101A0036A3AC /* imagem3.png */,
 				4A52C3D11ABC8B4C00CF4B32 /* ImageViewController.h */,
 				4A52C3D21ABC8B4C00CF4B32 /* ImageViewController.m */,
 				4A52C3D31ABC8B4C00CF4B32 /* ImageViewController.xib */,
@@ -155,15 +164,7 @@
 				4A52C3B01ABC8B3500CF4B32 /* TesteImagemBotoes */,
 				4A52C3C41ABC8B3500CF4B32 /* TesteImagemBotoesTests */,
 				4A52C3AF1ABC8B3500CF4B32 /* Products */,
-				4A3C83A11ABC95C20047783A /* small-super-mario.png */,
-				4A73630A1AC5C275003E5150 /* somOff.png */,
-				4A73630B1AC5C275003E5150 /* somOn.png */,
-				4A8E7D351AC087ED007828C5 /* background.png */,
-				4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */,
-				4A8E7D371AC088E6007828C5 /* background_.png */,
-				4A7363081AC5BEC8003E5150 /* IconeEstatistica2.png */,
-				4A7362FE1AC5BD90003E5150 /* IconeApp.png */,
-				4A7363061AC5BE87003E5150 /* IconeGame2.png */,
+				C4E3FC981ADC082B0036A3AC /* imagens */,
 				C4FF36331AC5971C0041C40F /* Som */,
 				56B60D9B1AC3969C0023F65D /* BotaoEsquerda */,
 				56B60D9A1AC396950023F65D /* BotaoDireita */,
@@ -285,6 +286,22 @@
 			name = BotaoReset;
 			sourceTree = "<group>";
 		};
+		C4E3FC981ADC082B0036A3AC /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C83A11ABC95C20047783A /* small-super-mario.png */,
+				4A73630A1AC5C275003E5150 /* somOff.png */,
+				4A73630B1AC5C275003E5150 /* somOn.png */,
+				4A8E7D351AC087ED007828C5 /* background.png */,
+				4A6C29901AC4816F0097F4BD /* small-super-mario-sombra.png */,
+				4A8E7D371AC088E6007828C5 /* background_.png */,
+				4A7363081AC5BEC8003E5150 /* IconeEstatistica2.png */,
+				4A7362FE1AC5BD90003E5150 /* IconeApp.png */,
+				4A7363061AC5BE87003E5150 /* IconeGame2.png */,
+			);
+			name = imagens;
+			sourceTree = "<group>";
+		};
 		C4FF36331AC5971C0041C40F /* Som */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,7 +359,7 @@
 				TargetAttributes = {
 					4A52C3AD1ABC8B3500CF4B32 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = VRLPG8J2DR;
+						DevelopmentTeam = 4TM3YLSYM4;
 					};
 					4A52C3C01ABC8B3500CF4B32 = {
 						CreatedOnToolsVersion = 6.2;
@@ -383,6 +400,7 @@
 				56B60DAA1AC397130023F65D /* BotãoDireita@2x.png in Resources */,
 				56B60DA11AC396F70023F65D /* BotãoAntiHorario-Highlighted@2x.png in Resources */,
 				4A73630D1AC5C275003E5150 /* somOn.png in Resources */,
+				C4E3FC9E1ADC101A0036A3AC /* imagem3.png in Resources */,
 				56B60DAE1AC3972C0023F65D /* BotãoEsquerda@2x.png in Resources */,
 				4A8E7D361AC087ED007828C5 /* background.png in Resources */,
 				56B60DA21AC396F70023F65D /* BotãoAntiHorario@2x.png in Resources */,
@@ -395,10 +413,12 @@
 				4A3C83A21ABC95C20047783A /* small-super-mario.png in Resources */,
 				4A73630C1AC5C275003E5150 /* somOff.png in Resources */,
 				56B60DAD1AC3972C0023F65D /* BotãoEsquerda-Highlighted@2x.png in Resources */,
+				C4E3FC9C1ADC101A0036A3AC /* imagem1.png in Resources */,
 				4A6C29911AC4816F0097F4BD /* small-super-mario-sombra.png in Resources */,
 				C4FF36321AC596F00041C40F /* sound-mario.mp3 in Resources */,
 				56B60DB21AC3973E0023F65D /* BotãoHorario@2x.png in Resources */,
 				56B60DA51AC397060023F65D /* BotãoBaixo-Highlighted@2x.png in Resources */,
+				C4E3FC9D1ADC101A0036A3AC /* imagem2.png in Resources */,
 				56B60DA91AC397130023F65D /* BotãoDireita-Highligthed@2x.png in Resources */,
 				4A52C3B91ABC8B3500CF4B32 /* Images.xcassets in Resources */,
 				C499ECCC1AC33E5500768632 /* EstatisticaViewController.xib in Resources */,

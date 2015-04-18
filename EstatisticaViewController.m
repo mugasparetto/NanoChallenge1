@@ -77,8 +77,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
 - (IBAction)reset:(id)sender{
     
     self.objetoContadorDireto.valorDireita = 0;
@@ -107,8 +105,13 @@
     self.vetoresCoordenadas.sorteioAng = arc4random()%17;
     
     self.vetoresCoordenadas.resetou = YES;
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
-
+- (IBAction)voltar:(id)sender{
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*

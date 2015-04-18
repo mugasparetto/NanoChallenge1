@@ -55,7 +55,6 @@
         
         self.resetou = NO;
 
-
     }
     
     return self;

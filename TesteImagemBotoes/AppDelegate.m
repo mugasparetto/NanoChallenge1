@@ -23,12 +23,17 @@
     
     ImageViewController *ivc = [[ImageViewController alloc] init];
     
-    EstatisticaViewController *evc = [[EstatisticaViewController alloc] init];
+    self.navController = [[UINavigationController alloc]initWithRootViewController:ivc];
+    self.navController.navigationBarHidden = YES;
     
-    UITabBarController *tbc = [[UITabBarController alloc] init];
-    tbc.viewControllers = @[ivc, evc];
+    [self.window setRootViewController:_navController];
     
-    self.window.rootViewController = tbc;
+//    EstatisticaViewController *evc = [[EstatisticaViewController alloc] init];
+    
+//    UITabBarController *tbc = [[UITabBarController alloc] init];
+//    tbc.viewControllers = @[ivc, evc];
+    
+//    self.window.rootViewController = tbc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
