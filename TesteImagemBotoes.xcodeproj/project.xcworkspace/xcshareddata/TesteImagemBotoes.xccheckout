@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8317D815-E410-464C-847B-2DF543CB5601</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>TesteImagemBotoes</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>C9A96D7E87BE952FC65CA07765552E1BFF4B7D94</key>
 		<string>https://github.com/mugasparetto/NanoChallenge1.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TesteImagemBotoes.xcodeproj/project.xcworkspace</string>
+	<string>TesteImagemBotoes.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C9A96D7E87BE952FC65CA07765552E1BFF4B7D94</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>C9A96D7E87BE952FC65CA07765552E1BFF4B7D94</string>
 			<key>IDESourceControlWCCName</key>
-			<string>NanoChallenge1</string>
+			<string>TesteImagemBotoes</string>
 		</dict>
 	</array>
 </dict>

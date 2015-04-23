@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ImageViewController.h"
-#import "EstatisticaViewController.h"
+#import "InicioViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,23 +21,34 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    ImageViewController *ivc = [[ImageViewController alloc] init];
+    InicioViewController *invc = [[InicioViewController alloc] init];
     
-    self.navController = [[UINavigationController alloc]initWithRootViewController:ivc];
+    self.navController = [[UINavigationController alloc]initWithRootViewController:invc];
+    
+    
+    //self.navController.navigationBarHidden = YES;
+    
+    [self.window setRootViewController: self.navController];
+    
+        self.navController.navigationBar.barTintColor = [UIColor redColor];
+    
     self.navController.navigationBarHidden = YES;
     
-    [self.window setRootViewController:_navController];
-    
-//    EstatisticaViewController *evc = [[EstatisticaViewController alloc] init];
-    
-//    UITabBarController *tbc = [[UITabBarController alloc] init];
-//    tbc.viewControllers = @[ivc, evc];
-    
-//    self.window.rootViewController = tbc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    NSUInteger orientations = UIInterfaceOrientationMaskAllButUpsideDown;
+    
+    if(self.window.rootViewController){
+        UIViewController *presentedViewController = [[(UINavigationController *)self.window.rootViewController viewControllers] lastObject];
+        orientations = [presentedViewController supportedInterfaceOrientations];
+    }
+    
+    return orientations;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

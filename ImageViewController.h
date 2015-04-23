@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EstatisticaViewController.h"
+
 
 @interface ImageViewController : UIViewController
 
-@property (nonatomic) EstatisticaViewController *evc;
 @property (nonatomic) IBOutlet UIView *viewAlert;
 @property (weak, nonatomic) IBOutlet UIButton *btnOK;
 @property (weak, nonatomic) IBOutlet UIButton *btnEstatisticas;
@@ -24,9 +23,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnAngloDir;
 
 @property (weak, nonatomic) IBOutlet UIButton *btnReset;
-@property (weak, nonatomic) IBOutlet UIButton *btnIrEstatisticas;
 
 @property (nonatomic) NSMutableArray *imagens;
 @property (nonatomic) NSMutableArray *sombras;
+
+@property (nonatomic)BOOL resetou;
 
 @end
