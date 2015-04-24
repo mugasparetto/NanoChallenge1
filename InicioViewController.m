@@ -8,8 +8,12 @@
 
 #import "InicioViewController.h"
 #import "ImageViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface InicioViewController ()
+{
+    AVAudioPlayer *background;
+}
 
 @property (weak, nonatomic) IBOutlet UIImageView *bg;
 @property (weak, nonatomic) IBOutlet UIImageView *logo;
@@ -24,6 +28,15 @@
     
     self.bg.image = [UIImage imageNamed:@"tela_inicio.png"];
     self.logo.image = [UIImage imageNamed:@"logo 4.png"];
+    
+//    NSString *path;
+//    NSURL *soundUrl;
+//    
+//    path = [NSString stringWithFormat:@"%@/background.mp3", [[NSBundle mainBundle] resourcePath]];
+//    soundUrl = [NSURL fileURLWithPath:path];
+//    background = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+//    background.numberOfLoops = -1;
+//    [background play];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,6 +58,9 @@
     
 }
 
+- (void) stopBackground {
+    [background stop];
+}
 
 /*
 #pragma mark - Navigation

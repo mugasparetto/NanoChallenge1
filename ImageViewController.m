@@ -19,9 +19,11 @@
 @interface ImageViewController () <UIScrollViewDelegate>
 
 {
-    AVAudioPlayer *_musicaFundo;
+    AVAudioPlayer *background;
+    AVAudioPlayer *encaixou;
     int _startMusica;
 }
+
 @property (weak, nonatomic) IBOutlet UIImageView *contentView;
 @property (weak, nonatomic) IBOutlet UIScrollView *scroll;
 @property (weak, nonatomic) IBOutlet UIImageView *base2;
@@ -118,12 +120,22 @@
     [self.view insertSubview:self.sombra belowSubview:self.personagem];
     // Do any additional setup after loading the view from its nib.
     
-    NSString *path = [NSString stringWithFormat:@"%@/sound-mario.mp3", [[NSBundle mainBundle] resourcePath]];
-    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    NSString *path;
+    NSURL *soundUrl;
     
-    _musicaFundo = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
-    _musicaFundo.numberOfLoops = -1;
-    [_musicaFundo play];
+    path = [NSString stringWithFormat:@"%@/background.mp3", [[NSBundle mainBundle] resourcePath]];
+    soundUrl = [NSURL fileURLWithPath:path];
+    background = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    background.numberOfLoops = -1;
+    [background setVolume:0.1];
+    [background play];
+    
+    path = [NSString stringWithFormat:@"%@/encaixe.mp3", [[NSBundle mainBundle] resourcePath]];
+    soundUrl = [NSURL fileURLWithPath:path];
+    encaixou = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    [encaixou setDelegate:self];
+    encaixou.numberOfLoops = 0;
+
     [self.viewAlert setHidden:YES];
     
     self.resetou = YES;
@@ -345,7 +357,7 @@
     int aux = 1;
     
     if ([sender isSelected]) {
-        [_musicaFundo play];
+        [background play];
         aux = 1;
 //        UIImage *unselectedImage = [UIImage imageNamed:@"volume_on.png"];
 //        [sender setBackgroundImage:unselectedImage forState:UIControlStateNormal];
@@ -353,7 +365,7 @@
     }
     
     else{
-        [_musicaFundo stop];
+        [background stop];
         aux = 0;
         //UIImage *selectedImage = [UIImage imageNamed:@"volume_off.png"];
         //[sender setBackgroundImage:selectedImage forState:UIControlStateSelected];
@@ -407,6 +419,8 @@
                     [self.pontLabel setText: [NSString stringWithFormat:@"%d", self.pont]];
                     self.resetou = NO;
                     [self disableControll];
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+                    [encaixou play];
             }
         }
     }
@@ -489,6 +503,14 @@
 - (NSUInteger)supportedInterfaceOrientations{
     return UIInterfaceOrientationMaskPortrait;
 }
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer *)encaixe successfully:(BOOL)flag{
+    
+    [self reset];
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+    
+}
+
 
 /*
 #pragma mark - Navigation

@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 
-@interface ImageViewController : UIViewController
+@interface ImageViewController : UIViewController <AVAudioPlayerDelegate>
 
 @property (nonatomic) IBOutlet UIView *viewAlert;
 @property (weak, nonatomic) IBOutlet UIButton *btnOK;
